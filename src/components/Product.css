@@ -1,0 +1,42 @@
+.product {
+  padding: 0 20px;
+  margin-bottom: 15px;
+}
+.productImage {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.productFooter {
+  position: relative;
+  padding-right: 40px;
+}
+.productInfo {
+  text-align: right;
+  padding-right: 10px;
+}
+.productInfo p {
+  line-height: 20px;
+}
+.productCode {
+  color: #aaa;
+  padding-left: 5px;
+}
+.productPrice {
+  color: #4ab695;
+  font-weight: bold;
+}
+.addToBasket {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 40px;
+  height: 40px;
+  background-color: black;
+  color: white;
+}
+@media (min-width: 767px) {
+  .product {
+    flex: 1;
+  }
+}

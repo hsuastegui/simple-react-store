@@ -1,0 +1,33 @@
+h2 {
+  text-align: center;
+  padding: 20px 0;
+  margin-bottom: 20px;
+}
+.appContainer {
+  position: relative;
+  overflow-x: hidden;
+}
+.appContent {
+  transition: all 0.8s ease 0s;
+}
+.appContent:before {
+  content: "";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transition: opacity 0.8s ease 0s;
+  z-index: 0;
+}
+.show .appContent {
+  transform: translateX(-300px);
+}
+.show .appContent:before {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.6;
+  z-index: 10;
+}

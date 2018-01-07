@@ -1,0 +1,49 @@
+.miniProduct {
+  background-color: #363636;
+  position: relative;
+  margin-bottom: 15px;
+}
+.miniProductImage {
+  display: inline-block;
+  vertical-align: middle;
+  width: 50px;
+  height: auto;
+}
+.miniProductInfo {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 10px;
+}
+.miniProductQtyInfo {
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%);
+}
+.miniProductQtyInfo button {
+  background: none;
+}
+.miniProductQtyInfo button span {
+  background-color: #4f4f4f;
+  border-radius: 50%;
+  overflow: hidden;
+  display: block;
+  width: 25px;
+  line-height: 25px;
+  text-align: center;
+  color: white;
+}
+.miniProductQty {
+  padding: 0 10px;
+  color: white;
+}
+.miniProductName {
+  color: white;
+}
+.miniProductCode {
+  color: #aaa;
+  padding-left: 5px;
+}
+.miniProductPrice {
+  color: #4ab695;
+}
